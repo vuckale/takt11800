@@ -1,0 +1,123 @@
+(footprint "LED_D2.00mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "182fd51b-fef1-4ad4-b0c1-d11420b12f8a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c236bfb-8940-42f3-afe5-be3c971177e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3412c6dd-469c-49e6-a275-e5c1fb882bcd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2450fee8-355f-4378-a8b6-135108e7957e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.87 -3.41)
+		(end -2.87 -1.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8a819715-cfc8-4bb4-bc83-3b47940b3200")
+	)
+	(fp_line
+		(start -2.87 -1.51)
+		(end 1.37 -1.51)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c751275-ab07-4838-a28b-a2e25a95b360")
+	)
+	(fp_line
+		(start 1.37 -3.41)
+		(end -2.87 -3.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d740e79c-b4ff-4a15-9a92-3ac99bacf360")
+	)
+	(fp_line
+		(start 1.37 -1.51)
+		(end 1.37 -3.41)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ac31ee7-adaf-416e-8795-edb0d5562a4e")
+	)
+	(pad "1" thru_hole rect
+		(at -1.89 -2.46)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "83f25a68-18a1-418d-9241-c66af5164883")
+	)
+	(pad "2" thru_hole circle
+		(at 0.4 -2.46)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "394fe29e-2ae6-4b80-86fb-706dddd7e34b")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/LED_THT.3dshapes/LED_D3.0mm_Green.wrl"
+		(offset
+			(xyz -2 2.5 -3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

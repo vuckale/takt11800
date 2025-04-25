@@ -1,0 +1,192 @@
+(footprint "Resistor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.0254 1.4 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "58e542e7-0481-4c5b-bc48-ddbbb6abe542")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "0.22K"
+		(at 0 -1.925 180)
+		(layer "F.SilkS")
+		(uuid "586f5ea3-5d97-48cb-b5a7-dc1828c11c63")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "ad3f928d-fb2b-44a4-82ab-dff200ac1777")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "a0befaf8-0b24-4345-8745-a75c1a19fd72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.54 -0.762)
+		(end -2.54 0.762)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5209432c-865e-4898-87de-5b91ee04223d")
+	)
+	(fp_line
+		(start -2.54 0.762)
+		(end -2.032 0.762)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8bd6a40a-1be1-4fbe-9c85-e19e1c5b281c")
+	)
+	(fp_line
+		(start -2.54 0.762)
+		(end 2.54 0.762)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0774248a-0078-48f2-9b67-e5329381833e")
+	)
+	(fp_line
+		(start 2.413 0.762)
+		(end 2.413 -0.762)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6337aee3-0964-47c2-bea0-a669d1da0771")
+	)
+	(fp_line
+		(start 2.54 -0.762)
+		(end -2.54 -0.762)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f7ae08d-5eb6-4cec-a920-213ca013a3f4")
+	)
+	(fp_line
+		(start 2.54 0.762)
+		(end 2.54 -0.762)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14e0bc3a-9802-4fcb-93da-fc195a170465")
+	)
+	(pad "1" smd rect
+		(at 1.4 0)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "16f7c965-51cd-4820-9308-b73eda11127b")
+	)
+	(pad "1" smd rect
+		(at 1.4 0)
+		(size 1.6 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "d6e7a0d1-5910-44b7-a1d2-2567ef58bd76")
+	)
+	(pad "1" smd rect
+		(at 2.905 0.02)
+		(size 3.71 0.54)
+		(layers "B.Cu")
+		(uuid "36fffe78-57a6-47f8-aede-3d37d1a91ebf")
+	)
+	(pad "1" smd rect
+		(at 2.995 0.01)
+		(size 3.89 0.52)
+		(layers "F.Cu")
+		(uuid "1c98d063-59d0-4841-ac79-c014aad22295")
+	)
+	(pad "1" thru_hole circle
+		(at 5.32 0)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "412e9e8d-410e-4a28-be18-27bc3a2e15bc")
+	)
+	(pad "2" thru_hole circle
+		(at -5.4 -0.01)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "aca280e4-7c75-41f6-86f9-dafea0f2db37")
+	)
+	(pad "2" smd rect
+		(at -3.025 0.015)
+		(size 3.95 0.53)
+		(layers "F.Cu")
+		(uuid "4f20d3ed-c97e-4696-8136-bd404b9376bb")
+	)
+	(pad "2" smd rect
+		(at -3.025 0.015)
+		(size 3.95 0.53)
+		(layers "B.Cu")
+		(uuid "d979be2d-c154-43f5-8b40-66504078a8a8")
+	)
+	(pad "2" smd rect
+		(at -1.4 0)
+		(size 1.6 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "304fd13f-024a-4af8-a2b8-2452c1cc5115")
+	)
+	(pad "2" smd rect
+		(at -1.4 0)
+		(size 1.6 1.2)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "042cea9d-35a7-40fd-ac2c-0489cfb6d2ba")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

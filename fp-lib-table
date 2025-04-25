@@ -1,5 +1,0 @@
-(fp_lib_table
-  (lib (name "ai03")(type "KiCad")(uri "${KIPRJMOD}/lib/MX_Alps_Hybrid/MX_Only.pretty")(options "")(descr ""))
-  (lib (name "vuckale")(type "KiCad")(uri "${KIPRJMOD}/lib/vuckale/va11800.pretty")(options "")(descr ""))
-  (lib (name "keebio")(type "KiCad")(uri "${KIPRJMOD}/lib/Keebio/Keebio-Parts.pretty")(options "")(descr ""))
-)

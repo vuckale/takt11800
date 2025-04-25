@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MX_Alps_Hybrid")(type "Legacy")(uri "${KIPRJMOD}/lib/MX_Alps_Hybrid/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/lib/Keebio/keebio-components/keebio.lib")(options "")(descr "")(disabled)(hidden))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.kicad_sym")(options "")(descr ""))
+)

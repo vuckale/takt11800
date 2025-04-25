@@ -1,0 +1,248 @@
+(footprint "PinSocket_1x02_P2.00mm_Vertical"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole straight socket strip, 1x02, 2.00mm pitch, single row (from Kicad 4.0.7), script generated")
+	(tags "Through hole socket strip THT 1x02 2.00mm single row")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "8d98e73a-843a-479e-ba48-6dda8d81d6d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Buzzer"
+		(at 4.57 0.99 90)
+		(layer "F.SilkS")
+		(uuid "54acb67a-90f7-4ac6-92f0-2c7262902070")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a99a2301-73db-4ec2-afc0-08a602cc7885")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Buzzer, polarized"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8034a731-6557-42d4-9cba-200e0e8468fb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 1.06 1)
+		(end 1.06 3.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40a8eb88-5d99-4271-8cac-a6030e31a2b4")
+	)
+	(fp_line
+		(start 1.06 -1.06)
+		(end 1.06 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8287183-a84d-4de2-aafd-797f5c74a44c")
+	)
+	(fp_line
+		(start 0 -1.06)
+		(end 1.06 -1.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c6b5db8-aefa-43bd-8902-ce7a30392f05")
+	)
+	(fp_line
+		(start -1.06 3.06)
+		(end 1.06 3.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4f110c4-46fc-4a96-8e7e-34acef373e59")
+	)
+	(fp_line
+		(start -1.06 1)
+		(end 1.06 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7bf2f357-f758-4772-b887-b27bacf7684d")
+	)
+	(fp_line
+		(start -1.06 1)
+		(end -1.06 3.06)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f95bbeb-5601-4e77-9288-b93a284ed505")
+	)
+	(fp_line
+		(start 1.5 3.5)
+		(end -1.5 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5be4d393-3c8c-4401-bbf8-894fecd49dab")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "29109c6f-ab8c-49e4-8e73-96826dd6f477")
+	)
+	(fp_line
+		(start -1.5 3.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f67a3dff-8049-4999-b1ba-f98a222dc22b")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f375567f-13d9-4370-a4c2-c350f447f091")
+	)
+	(fp_line
+		(start 1 3)
+		(end -1 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "de6b43ce-1b5e-4289-aaea-56c9256f530f")
+	)
+	(fp_line
+		(start 1 -0.5)
+		(end 1 3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c0a7b608-199c-40f5-a285-424752e88d35")
+	)
+	(fp_line
+		(start 0.5 -1)
+		(end 1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "27e6bac3-aa3d-4c80-b557-852718ed0e50")
+	)
+	(fp_line
+		(start -1 3)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a65fd0c1-afe0-4905-849c-d2a9ce0dbd46")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b2026b7c-afa8-4d7a-a843-5d9b1e2c011a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1 90)
+		(layer "F.Fab")
+		(uuid "5aa759c2-29ce-4969-8540-9f0a558f14eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0 180)
+		(size 1.35 1.35)
+		(drill 0.8)
+		(layers "F&B.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9be4efeb-6f2d-4b4e-8143-0d816fc15b3f")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2 180)
+		(size 1.35 1.35)
+		(drill 0.8)
+		(layers "F&B.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4675ffc5-f463-4216-b9cd-3b908cbdaebf")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
