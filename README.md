@@ -1,5 +1,5 @@
 # takt11800 - Compaq MX 11800 QMK/VIA Replacement PCB
-![Default Layout](Docs/overview.png "Overview")
+![Default Layout](Docs/jpgs/overview.jpg "Overview")
 
 This project is a **drop-in replacement PCB** designed for the **Compaq MX 11800**, also known as the **Cherry G80-11800** a classic mechanical keyboard featuring **Cherry MX Brown switches** and an integrated **trackball**.
 
@@ -22,20 +22,20 @@ Whether you're a retro keyboard enthusiast, a server admin with a soft spot for 
 # Layout
 
 ## Default Layout
-![Default Layout](Docs/default_layout.png "Default Layout")
+![Default Layout](Docs/jpgs/default_layout.jpg "Default Layout")
 
 This PCB supports multiple layout options. The previous image shows the default layout with colored keys and marked unit sizes that support alternate layouts. The default layout represents the configuration the keyboard is most commonly found in: ANSI enter with a 2.25u enter key, stepped caps lock, and a winkeyless 7u bottom row.
 
 ## Extended Layout
-![Extended Layout](Docs/extended_layout.png "Extended Layout")
+![Extended Layout](Docs/jpgs/extended_layout.jpg "Extended Layout")
 
 The extended layout adds support for additional four bottom row variations, which are marked on the image with the letters b–e. For easier assembly, these are also labeled on the PCB itself, with unit sizes marked next to the switch holes and a–e marked on the stabilizer holes. Additionally, the extended layout supports a non-stepped caps lock key, ISO enter, split left shift and a backspace and 2u shift that can be split into two 1u keys. The numpad can also be converted into a full 1u macropad.
 
 ## PCB Overview
-![Top View](Docs/3d_pcb_front.png "Top View")
-![Back View](Docs/3d_pcb_back.png "Back View")
-![MCU View](Docs/3d_mcu.png "MCU View")
-![PS/2 Interface View](Docs/3d_ps2_interface.png "PS/2 Interface View")
+![Top View](Docs/jpgs/3d_pcb_front.jpg "Top View")
+![Back View](Docs/jpgs/3d_pcb_back.jpg "Back View")
+![MCU View](Docs/jpgs/3d_mcu.jpg "MCU View")
+![PS/2 Interface View](Docs/jpgs/3d_ps2_interface.jpg "PS/2 Interface View")
 
 ## License
 
