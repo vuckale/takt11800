@@ -67,7 +67,6 @@ After clicking "Save to Cart," you can upload the BOM, CPL, and component placem
 
 My experience with PCBWay was excellent. Any issues with my design were quickly communicated, and their team responded promptly. The total turnaround time was about two weeks, and the boards arrived very well packaged—in anti-static bags and wrapped with plenty of protective shrink wrap.
 
-![PCBWAY package](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_package.JPEG)
 ![PCBWAY package](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_anti_static.JPEG)
 
 ### Quality
