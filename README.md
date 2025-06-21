@@ -1,7 +1,7 @@
 # takt11800 - Compaq MX 11800 QMK/VIA Replacement PCB
 ![Default Layout](https://github.com/vuckale/takt11800/blob/master/Docs/jpgs/overview.jpg "Overview")
 
-Sponsored by PCBWay - [jump to section about ordering though](link)
+Sponsored by PCBWay - [Read More](#pcbway)
 
 This project is a **drop-in replacement PCB** designed for the **Compaq MX 11800**, also known as the **Cherry G80-11800** a classic mechanical keyboard featuring **Cherry MX Brown switches** and an integrated **trackball**.
 
@@ -41,6 +41,8 @@ The extended layout adds support for additional four bottom row variations, whic
 
 ## PCBWay
 
+![PCBWAY PCB Showcase](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_pcb_showcase.JPEG)
+
 ### Ordering Process
 
 PCBWay made prototyping this PCB incredibly straightforward. Their ordering process is intuitive and beginner-friendly. You can find all the necessary files in a  Fabrication Folder of this repository.
@@ -69,8 +71,6 @@ My experience with PCBWay was excellent. Any issues with my design were quickly 
 ![PCBWAY package](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_anti_static.JPEG)
 
 ### Quality
-
-![PCBWAY PCB Showcase](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_pcb_showcase.JPEG)
 
 This is where PCBWay truly shines. I was impressed by the overall PCB quality—the solder mask is perfectly uniform and consistent throughout. In my design, I included both silkscreen text and exposed copper text by selectively removing the top solder mask, and both came out flawless, with crisp details and no smudging or misalignment.
 
