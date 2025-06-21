@@ -1,6 +1,8 @@
 # takt11800 - Compaq MX 11800 QMK/VIA Replacement PCB
 ![Default Layout](https://github.com/vuckale/takt11800/blob/master/Docs/jpgs/overview.jpg "Overview")
 
+Sponsored by PCBWay - [jump to section about ordering though](link)
+
 This project is a **drop-in replacement PCB** designed for the **Compaq MX 11800**, also known as the **Cherry G80-11800** a classic mechanical keyboard featuring **Cherry MX Brown switches** and an integrated **trackball**.
 
 Originally designed for use in server rooms and rack-mounted setups, the MX 11800's **compact, space-saving layout** made it a go-to choice in enterprise environments.
@@ -36,6 +38,55 @@ The extended layout adds support for additional four bottom row variations, whic
 ![Back View](https://github.com/vuckale/takt11800/blob/master/Docs/jpgs/3d_pcb_back.jpg "Back View")
 ![MCU View](https://github.com/vuckale/takt11800/blob/master/Docs/jpgs/3d_mcu.jpg "MCU View")
 ![PS/2 Interface View](https://github.com/vuckale/takt11800/blob/master/Docs/jpgs/3d_ps2_interface.jpg "PS/2 Interface View")
+
+## PCBWay
+
+### Ordering Process
+
+PCBWay made prototyping this PCB incredibly straightforward. Their ordering process is intuitive and beginner-friendly. You can find all the necessary files in a  Fabrication Folder of this repository.
+
+![PCBWAY initial ui](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_init_ui.png)
+
+Following the steps on their UI, it was easy to place the order. After uploading the Gerber.zip file, most of the default values were already well-tailored for my 2-layer PCB. The only customization I made was changing the solder mask color—I chose black. There is also option to choose different color Silkscreen or UV printing.
+
+![PCBWAY solder mask color](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_solder_mask.png)
+
+For assembly, PCBWay offers two options: full assembly or stencil-only for DIY soldering. For this project, I chose Assembly by PCBWay, and also opted to have them source all the required components.
+
+To do this, simply check the assembly option and fill in the necessary values as shown:
+
+![PCBWAY assembly checkbox](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_assembly.png)
+
+After clicking "Save to Cart," you can upload the BOM, CPL, and component placement orientation files to complete your order.
+
+![PCBWAY Upload bom, cpl, and component placement orientation](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_upload_bom_cpl_1.png)
+
+![PCBWAY Upload bom, cpl, and component placement orientation](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_upload_bom_cpl_2.png)
+
+My experience with PCBWay was excellent. Any issues with my design were quickly communicated, and their team responded promptly. The total turnaround time was about two weeks, and the boards arrived very well packaged—in anti-static bags and wrapped with plenty of protective shrink wrap.
+
+![PCBWAY package](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_package.JPEG)
+![PCBWAY package](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_anti_static.JPEG)
+
+### Quality
+
+![PCBWAY PCB Showcase](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_pcb_showcase.JPEG)
+
+This is where PCBWay truly shines. I was impressed by the overall PCB quality—the solder mask is perfectly uniform and consistent throughout. In my design, I included both silkscreen text and exposed copper text by selectively removing the top solder mask, and both came out flawless, with crisp details and no smudging or misalignment.
+
+The components—including the MCU, SMD resistors, capacitors, and others—are perfectly placed, with flawless solder joints even on the tiniest parts. I’ll let the image speak for itself.
+
+![PCBWAY MCU and other components](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_mcu_overview.JPEG)
+
+The plated through-holes on this PCB are clean, well-aligned, and have excellent copper coverage—perfect for reliable soldering. 
+
+![PCBWAY solder mask and silk screen](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_silkscreen_overview.JPEG)
+
+### Assembly
+
+After soldering the switches and plugging in the trackball, all that was left was flashing the firmware. The STM32 chips come pre-flashed with a bootloader, so once connected to the PC, holding the BOOT switch and tapping NRST puts the board into flashing mode—simple as that.
+
+The build includes 105 switches, and for a standard ISO layout, it uses 6× 2u stabilizers and 1× 7u stabilizer, though this may vary depending on the chosen layout.
 
 ## License
 
