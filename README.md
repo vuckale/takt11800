@@ -45,11 +45,11 @@ The extended layout adds support for additional four bottom row variations, whic
 
 ### Ordering Process
 
-PCBWay made prototyping this PCB incredibly straightforward. Their ordering process is intuitive and beginner-friendly. Their intuitive, beginner-friendly ordering process took all the guesswork out of manufacturing. I was especially impressed by how smoothly everything went, even on my first try. If you're curious to check it out or replicate the build, all the necessary files are neatly organized in the Fabrication Folder of this repository.
+PCBWay made prototyping this PCB straightforward and easy. Their intuitive, beginner-friendly ordering process took all the guesswork out of manufacturing. I was impressed by how smoothly everything went, even on my first try. If you're curious to check it out or replicate the build, all the necessary files are neatly organized in the Fabrication Folder of this repository.
 
 ![PCBWAY initial ui](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_init_ui.png)
 
-Following the steps on their user-friendly interface, placing an order with PCBWay was straightforward. After uploading the Gerber .zip file, the platform intelligently pre-filled many default values suitable for my 2-layer PCB, streamlining the process significantly. The only manual customization I initially made was changing the solder mask color to black—a purely aesthetic choice. However, PCBWay offers a wide range of specification options for those who want more control.
+Following the steps on their interface, placing an order with PCBWay was easy. After uploading the Gerber .zip file, the platform pre-filled many default values suitable for my 2-layer PCB, simplifying the process significantly. The only manual customization I initially made was changing the solder mask color to black—a purely aesthetic choice. However, PCBWay offers a wide range of specification options for those who want more control.
 
 You can choose between single pieces, customer-designed panels, or panels assembled by PCBWay, and even combine different PCB designs within a single panel. Layer configurations are highly flexible, ranging from 1 up to 14 layers, with support for advanced materials like FR-4, Aluminum, and Rogers for high-frequency or thermal applications. PCB thickness can be set anywhere from 0.2 mm up to 3.2 mm, and you can define track/spacing resolutions as fine as 3/3 mil. For higher durability or signal performance, different finished copper weights are also available—ranging from bare copper to 12 oz Cu.
 
