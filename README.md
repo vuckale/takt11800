@@ -77,7 +77,7 @@ After clicking "Save to Cart," you can upload the BOM, CPL, and component placem
 
 ![PCBWAY Upload bom, cpl, and component placement orientation](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_upload_bom_cpl_2.png)
 
-My experience with PCBWay was excellent from start to finish. After placing the order, I had frequent and helpful communication with their engineering team, who reached out to clarify a few design decisions and even helped me correct some mistakes in my Gerber files. I really appreciated how responsive and collaborative they were—it felt like working with a partner, not just a service provider.
+After placing the order, I had frequent and helpful communication with their engineering team, who reached out to clarify a few design decisions and even helped me correct some mistakes in my Gerber files. I really appreciated how responsive and collaborative they were—it felt like working with a partner, not just a service provider.
 
 One particularly thoughtful touch was that before final assembly and shipping, they sent me high-resolution photos of the finished PCBs for confirmation. This gave me a last opportunity to visually inspect the boards and ensure everything looked right—a great quality-control step that added to my confidence in the process.
 
