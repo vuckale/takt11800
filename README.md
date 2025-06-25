@@ -45,15 +45,27 @@ The extended layout adds support for additional four bottom row variations, whic
 
 ### Ordering Process
 
-PCBWay made prototyping this PCB incredibly straightforward. Their ordering process is intuitive and beginner-friendly. You can find all the necessary files in a  Fabrication Folder of this repository.
+PCBWay made prototyping this PCB incredibly straightforward. Their ordering process is intuitive and beginner-friendly. Their intuitive, beginner-friendly ordering process took all the guesswork out of manufacturing. I was especially impressed by how smoothly everything went, even on my first try. If you're curious to check it out or replicate the build, all the necessary files are neatly organized in the Fabrication Folder of this repository.
 
 ![PCBWAY initial ui](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_init_ui.png)
 
-Following the steps on their UI, it was easy to place the order. After uploading the Gerber.zip file, most of the default values were already well-tailored for my 2-layer PCB. The only customization I made was changing the solder mask color—I chose black. There is also option to choose different color Silkscreen or UV printing.
+Following the steps on their user-friendly interface, placing an order with PCBWay was straightforward. After uploading the Gerber .zip file, the platform intelligently pre-filled many default values suitable for my 2-layer PCB, streamlining the process significantly. The only manual customization I initially made was changing the solder mask color to black—a purely aesthetic choice. However, PCBWay offers a wide range of specification options for those who want more control.
+
+You can choose between single pieces, customer-designed panels, or panels assembled by PCBWay, and even combine different PCB designs within a single panel. Layer configurations are highly flexible, ranging from 1 up to 14 layers, with support for advanced materials like FR-4, Aluminum, and Rogers for high-frequency or thermal applications. PCB thickness can be set anywhere from 0.2 mm up to 3.2 mm, and you can define track/spacing resolutions as fine as 3/3 mil. For higher durability or signal performance, different finished copper weights are also available—ranging from bare copper to 12 oz Cu.
+
+Solder mask colors include not only standard options like green, red, and blue, but also premium finishes like matte black and matte green. Silkscreen printing supports multiple colors (white, black, yellow) and even UV multi-color printing. Additional advanced options include edge connectors, various surface finishes like ENIG, immersion silver, and ENEPIG, and via treatments such as tenting, plugging, or open vias.
+
+You also have the option to remove PCBWay's product number for a small fee, specify custom FR4-TG ratings, and opt for specialized features like castellated holes, edge plating, or impedance control. With all these configuration options, PCBWay caters not only to hobbyists but also to professionals needing precise and high-performance PCBs.
 
 ![PCBWAY solder mask color](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_solder_mask.png)
 
-For assembly, PCBWay offers two options: full assembly or stencil-only for DIY soldering. For this project, I chose Assembly by PCBWay, and also opted to have them source all the required components.
+For assembly, PCBWay provides a flexible set of options tailored to different needs: you can go with full turnkey assembly, where they source and solder everything; kitted/consigned, where you supply all the parts; or a combo option, where you send some components and let them handle the rest. 
+
+For this project, I went with the full turnkey assembly—PCBWay not only assembled the boards but also sourced all the required components for me. This saved a huge amount of time and hassle, especially for parts that are hard to track down or have long lead times.
+
+They also offer additional customization, like choosing whether to assemble single boards or panelized PCBs (recommended if you're doing runs of 20+ boards or working with small form factors), selecting top, bottom, or dual-sided assembly, and even specifying if you'd like to allow substitute components made in China—which I found useful for speeding up lead times without compromising quality.
+
+Overall, their assembly service felt like a huge win—it was smooth, efficient, and let me focus entirely on design while they took care of the heavy lifting.
 
 To do this, simply check the assembly option and fill in the necessary values as shown:
 
@@ -65,7 +77,15 @@ After clicking "Save to Cart," you can upload the BOM, CPL, and component placem
 
 ![PCBWAY Upload bom, cpl, and component placement orientation](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_upload_bom_cpl_2.png)
 
-My experience with PCBWay was excellent. Any issues with my design were quickly communicated, and their team responded promptly. The total turnaround time was about two weeks, and the boards arrived very well packaged—in anti-static bags and wrapped with plenty of protective shrink wrap.
+My experience with PCBWay was excellent from start to finish. After placing the order, I had frequent and helpful communication with their engineering team, who reached out to clarify a few design decisions and even helped me correct some mistakes in my Gerber files. I really appreciated how responsive and collaborative they were—it felt like working with a partner, not just a service provider.
+
+One particularly thoughtful touch was that before final assembly and shipping, they sent me high-resolution photos of the finished PCBs for confirmation. This gave me a last opportunity to visually inspect the boards and ensure everything looked right—a great quality-control step that added to my confidence in the process.
+
+Throughout production, PCBWay provides visual order tracking on their website, which shows exactly where your order is at every stage—file review, fabrication, solder mask, silkscreen, assembly, testing, and packaging. It’s clearly laid out and updated in real time, which made the waiting process far less stressful.
+
+The total turnaround time was about two weeks, which included fabrication, full assembly, and component sourcing. When the package arrived, it was clear that shipping was handled with care: each board was sealed in an anti-static bag, then carefully wrapped with protective shrink wrap and cushioning to prevent any damage during transit.
+
+Overall, the combination of attentive support, visual transparency, and high-quality results made the whole experience smooth and satisfying. I wouldn’t hesitate to work with them again on future prototypes.
 
 ![PCBWAY package](https://github.com/vuckale/takt11800/blob/master/Docs/pcbway/pcbway_anti_static.JPEG)
 
@@ -86,6 +106,10 @@ The plated through-holes on this PCB are clean, well-aligned, and have excellent
 After soldering the switches and plugging in the trackball, all that was left was flashing the firmware. The STM32 chips come pre-flashed with a bootloader, so once connected to the PC, holding the BOOT switch and tapping NRST puts the board into flashing mode—simple as that.
 
 The build includes 105 switches, and for a standard ISO layout, it uses 6× 2u stabilizers and 1× 7u stabilizer, though this may vary depending on the chosen layout.
+
+### Final Words
+
+Overall, working with PCBWay was a smooth and satisfying experience. The ordering process was easy, communication was fast and helpful, and the visual tracking kept me updated every step of the way. With a quick two-week turnaround, high-quality fabrication, flawless assembly, and great attention to detail, PCBWay delivered a professional result I’d gladly rely on again.
 
 ## License
 
