@@ -15,6 +15,18 @@ Originally designed for use in server rooms and rack-mounted setups, the MX 1180
 - **Drop-In Compatible** – No case modifications required. Designed to fit directly into the original shell and work with original components.
 - **USB-C Connectivity** – Modern convenience and reliability.
 
+### Known Issues
+
+During testing, the integrated trackball worked reliably with some MX 11800 variants (based on testing with a single German layout unit), but showed intermittent or unreliable behavior on others (such as international-layout versions). In some cases, the trackball would work inconsistently or fail to initialize.
+
+At the time of writing, no reliable software solution has been found. Based on the observed behavior and the available hardware information, it is suspected that this may be related to a voltage level mismatch. The MCU operates at 3.3 V logic, while the original trackball assembly may expect 5 V logic levels. This has not yet been conclusively confirmed and remains under investigation.
+
+A revised PCB is planned to address this potential issue at the hardware level. Until then, builders should be aware that trackball functionality may vary depending on the specific keyboard and trackball assembly used.
+
+### BOM and CPL Orientation
+
+The included BOM (Bill of Materials) and CPL (Component Placement List) are provided for orientation purposes. Depending on the assembly options selected and any variations in components, you may need to adjust these files when placing your order to ensure correct assembly.
+
 ### Why This Project?
 
 The original MX 11800 has aged gracefully, but its internals were due for a modern upgrade. This replacement PCB brings this legendary board into the modern era while preserving its unique charm and functionality.

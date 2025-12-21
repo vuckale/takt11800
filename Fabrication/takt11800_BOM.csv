@@ -1,0 +1,42 @@
+,,,Takt11800 BOM,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Item #,*Designator,*Qty,Manufacturer,*Mfg Part #,Description / Value,*Package/Footprint ,Type,Your Instructions / Notes
+1,"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,D32,D33,D34,D35,D36,D37,D38,D39,D40,D41,D42,D43,D44,D45,D46,D47,D48,D49,D50,D51,D52,D53,D54,D56,D57,D58,D59,D60,D61,D62,D64,D65,D66,D67,D68,D69,D70,D72,D73,D74,D75,D76,D77,D78,D79,D80,D81,D82,D83,D84,D85,D86,D87,D88,D89,D90,D91,D92,D93,D94,D95,D96,D97,D98,D99,D100,D101,D102,D103,D104,D105,D106,D107,D108,D109,D110,D111,D112,D113,D114",111,Shandong Jingdao Microelectronics,1N4148W,100V Independent Type 1.25V@150mA 8ns 300mA SOD-123 Switching Diodes ROHS,"
+SOD-123",SMD,"JLCPCB Part #
+C115103"
+2,U1,1,"
+STMicroelectronics",STM32F072CBT6,128KB 1.65V~3.6V ARM-M0 16KB 48MHz FLASH 37 LQFP-48(7x7) Microcontrollers (MCU/MPU/SOC) ROHS,LQFP-48(7x7),SMD,"JLCPCB Part #
+C81720"
+3,U2,1,Texas Instruments,CD74HC4067SM96,"SSOP-24-208mil Analog Switches, Multiplexers ROHS
+",SSOP-24-208mil,SMD,"JLCPCB Part #
+C98457"
+4,U3,1,Torex Semicon,XC6206P332MR-G,"200mA Fixed 3.3V Positive electrode 6V SOT-23-3L Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS",SOT-23-3L,SMD,"JLCPCB Part #
+C5446"
+5,U4,1,TECH PUBLIC,USBLC6-2SC6,6A 12V 150W 6V Unidirectional 5V SOT-23-6 ESD and Surge Protection (TVS/ESD) ROHS,SOT-23-6,SMD,"JLCPCB Part #
+C2827654"
+6,"C8,C9,C15",3,Samsung Electro-Mechanics,CL05A105KA5NQNC,"
+25V 1uF X5R �10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS",0402,SMD,"JLCPCB Part #
+C52923"
+7,"C10,C11,C13,C16,C18",5,Samsung Electro-Mechanics,"
+CL05B104KB54PNC",50V 100nF X7R �10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,0402,SMD,"JLCPCB Part #
+C307331"
+8,"C12,C17",2,Samsung Electro-Mechanics,CL05A475MP5NRNC,10V 4.7uF X5R �20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,0402,SMD,"JLCPCB Part #
+C23733"
+9,C14,1,Samsung Electro-Mechanics,CL05B103KB5NNNC,50V 10nF X7R �10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,0402,SMD,"JLCPCB Part #
+C15195"
+10,F1,1,BOURNS,MF-FSMF050X-2,6V 500mA 40A 1A 0603 Resettable Fuses ROHS,0603,SMD,"JLCPCB Part #
+C210357"
+11,J3,1,Global Connector Technology,USB4800-03-A,SMD USB Connectors ROHS,SMD,SMD,"JLCPCB Part #
+C5352763"
+12,"R1,R2,R3",3,UNI-ROYAL(Uniroyal Elec),0805W8F2200T5E,125mW Thick Film Resistors 150V �100ppm/? �1% 220? 0805 Chip Resistor - Surface Mount ROHS,0805,SMD,"JLCPCB Part #
+C17557"
+13,"R4,R5, R6",3,UNI-ROYAL(Uniroyal Elec),0402WGF1002TCE,62.5mW Thick Film Resistors 50V �100ppm/? �1% 10k? 0402 Chip Resistor - Surface Mount ROHS,"
+0402",SMD,"JLCPCB Part #
+C25744"
+14,"R7,R8",2,UNI-ROYAL(Uniroyal Elec),"
+0402WGF5101TCE",62.5mW Thick Film Resistors 50V �100ppm/? �1% 5.1k? 0402 Chip Resistor - Surface Mount ROHS,0402,SMD,"JLCPCB Part #
+C25905"
+15,"SW1, SW2",2,ALPSALPINE,SKQGABE010,5.2mm 1.5mm Round Button 50mA Standing paste 5.2mm SPST 12V SMD Tactile Switches ROHS,SMD,SMD,"JLCPCB Part #
+C115351"
